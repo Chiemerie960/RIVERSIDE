@@ -593,26 +593,31 @@ footer p {
     flex-direction: column;
     overflow: hidden;
   }
+
   .navigation {
     padding: 2rem 5.6rem;
   }
+
   span,
   li a {
     font-size: 16px;
   }
+
   .frame {
     font-size: 18px;
     padding-left: 1.3rem;
   }
+
   .frame h3 {
     font-size: 20px;
   }
+
   .contact .contact-container {
     width: 1080px;
   }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1024px) {
   .navigation {
     padding: 2rem 5.6rem;
   }
@@ -628,11 +633,72 @@ footer p {
   .about .container {
     width: 90vw !important
   }
+
+  .room-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .room-cnt .room-img {
+    height: 100%;
+  }
+
+  .room-img img {
+    height: 100%;
+  }
+
+  .room-txt {
+    width: 50%;
+    height: fit-content;
+    padding: 0 27px;
+    gap: 10px;
+  }
+
+  .room-txt h2 {
+    font-size: 30px;
+    line-height: 48px;
+  }
+
+  .room-txt p {
+    font-size: 16px;
+  }
+
+  .cuisine-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .cuisine-cnt .cuisine-img {
+    height: 100%;
+  }
+
+  .cuisine-img img {
+    height: 100%;
+  }
+
+  .cuisine-txt {
+    width: 40%;
+    height: fit-content;
+    padding: 0 27px;
+    gap: 10px;
+  }
+
+  .cuisine-txt h2 {
+    font-size: 30px;
+    line-height: 48px;
+  }
+
+  .cuisine-txt p {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
   .navigation {
-    padding: 1rem 5.6rem;
+    padding: 3rem 5.6rem;
   }
 
   ul {
@@ -653,5 +719,97 @@ footer p {
 
   .about .container {
     width: 90vw !important
+  }
+
+  .events .container .cards {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90vw;
+  }
+
+  .events .container .cards .card1,
+  .events .container .cards .card2,
+  .events .container .cards .card3 {
+    width: 90vw;
+    height: 514px;
+    overflow: hidden;
+  }
+
+  .contact {
+    padding-bottom: 0;
+    margin-top: 9.38rem;
+  }
+
+  .contact .container {
+    width: 100vw;
+  }
+
+  .contact .contact-container {
+    background-color: #ececec;
+    padding: 4.9rem 4.19rem;
+    width: 100vw;
+  }
+
+  .contact-container form {
+    display: flex;
+    gap: 3.75rem;
+  }
+
+  .column1,
+  .column2 {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.88rem;
+  }
+
+  .logo h1 {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .navigation {
+    padding: 3rem 1rem;
+  }
+
+  .logo h1 {
+    font-size: 30px;
+  }
+
+  .room-cnt {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  .room-cnt .room-img {
+    width: 90vw;
+  }
+
+  .room-txt {
+    width: 90vw;
+    padding: 0;
+  }
+  .cuisine-cnt {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  .cuisine-cnt .cuisine-img {
+    width: 90vw;
+  }
+
+  .cuisine-txt {
+    width: 90vw;
+    padding: 0;
   }
 }
