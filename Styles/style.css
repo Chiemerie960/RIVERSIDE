@@ -109,9 +109,7 @@ li a {
   background-color: #303030;
 }
 
-.frame1,
-.frame2,
-.frame3 {
+.frame {
   min-width: 235.66px;
   width: 100%;
   padding-top: 1.25rem;
@@ -126,9 +124,7 @@ li a {
   /* justify-content: center; */
 }
 
-.frame1 h3,
-.frame2 h3,
-.frame3 h3 {
+.frame h3 {
   font-size: 22px;
 }
 
@@ -590,12 +586,26 @@ footer p {
 }
 
 @media only screen and (max-width: 1366px) {
+  header {
+    max-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
   .navigation {
     padding: 2rem 5.6rem;
   }
   span,
   li a {
     font-size: 16px;
+  }
+  .frame {
+    font-size: 18px;
+    padding-left: 1.3rem;
+  }
+  .frame h3 {
+    font-size: 20px;
   }
 }
 
