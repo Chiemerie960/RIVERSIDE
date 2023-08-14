@@ -607,6 +607,9 @@ footer p {
   .frame h3 {
     font-size: 20px;
   }
+  .contact .contact-container {
+    width: 1080px;
+  }
 }
 
 @media only screen and (max-width: 1020px) {
