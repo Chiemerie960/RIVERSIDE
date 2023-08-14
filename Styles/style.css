@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,10 +10,12 @@
   font-family: "Inter", sans-serif;
   text-decoration: none;
 }
+
 body {
   width: 100vw;
   overflow-x: hidden;
 }
+
 header {
   width: 100vw;
   position: relative;
@@ -25,6 +28,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .navigation {
   width: 100%;
   /* height: 9.69rem; */
@@ -34,6 +38,7 @@ header {
   align-items: center;
   padding: 3rem 6.62rem;
 }
+
 .hamburger {
   width: 40px;
   height: 40px;
@@ -46,11 +51,13 @@ header {
   align-items: center !important;
   cursor: pointer;
 }
+
 .hamburger span {
   width: 70%;
   height: 4px;
   background-color: #076bb2;
 }
+
 .logo h1 {
   cursor: pointer;
   font-family: 'Inter';
@@ -61,10 +68,12 @@ header {
   text-align: left;
   color: #076bb2;
 }
+
 ul {
   display: flex;
   gap: 35px;
 }
+
 span,
 li a {
   color: black;
@@ -73,10 +82,12 @@ li a {
   line-height: 30px;
   cursor: pointer;
 }
+
 .nav {
   gap: 35px;
   display: flex;
 }
+
 .landing {
   position: absolute;
   bottom: 1rem;
@@ -85,15 +96,19 @@ li a {
   display: flex;
   width: fit-content;
 }
+
 .frame1 {
   background-color: #7b7b7b;
 }
+
 .frame2 {
   background-color: #504f4f;
 }
+
 .frame3 {
   background-color: #303030;
 }
+
 .frame1,
 .frame2,
 .frame3 {
@@ -110,11 +125,13 @@ li a {
   /* align-items: center; */
   /* justify-content: center; */
 }
+
 .frame1 h3,
 .frame2 h3,
 .frame3 h3 {
   font-size: 22px;
 }
+
 .landing button {
   background-color: #076bb2;
   font-size: 20px;
@@ -123,6 +140,7 @@ li a {
   outline: none;
   color: white;
 }
+
 .contact,
 .cuisine,
 .events,
@@ -130,6 +148,7 @@ li a {
 .about {
   padding-top: 9.38rem;
 }
+
 .contact .container,
 .cuisine .container,
 .events .container,
@@ -143,6 +162,7 @@ li a {
   align-items: center;
   gap: 1.87rem;
 }
+
 .contact .container h1,
 .cuisine .container h1,
 .events .container h1,
@@ -156,6 +176,7 @@ li a {
   text-align: center;
   color: #888888;
 }
+
 .about .container .abt-text {
   display: flex;
   flex-direction: column;
@@ -164,6 +185,7 @@ li a {
   text-align: center;
   gap: 1.25rem;
 }
+
 .about .container .abt-text p {
   color: #000000;
   font-family: Inter;
@@ -173,6 +195,7 @@ li a {
   letter-spacing: 0em;
   text-align: center;
 }
+
 .about .container .button {
   background-color: #076bb2;
   color: white;
@@ -180,13 +203,16 @@ li a {
   outline: none;
   border: none;
 }
+
 .rooms .container {
   margin: 0;
   width: 100vw;
 }
+
 .rooms .container h1 {
   margin: 0 auto;
 }
+
 .room-cnt {
   display: flex;
   flex-direction: row;
@@ -201,11 +227,13 @@ li a {
   /* height: 778px; */
   overflow: hidden;
 }
+
 .room-img img {
   width: 110%;
   object-fit: cover;
   object-position: center;
 }
+
 .room-txt {
   display: flex;
   flex-direction: column;
@@ -214,6 +242,7 @@ li a {
   padding: 33px 27px 0px 27px;
   gap: 30px;
 }
+
 .room-txt h2 {
   font-size: 40px;
   font-weight: 300;
@@ -221,6 +250,7 @@ li a {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .room-txt p {
   font-size: 16px;
   font-weight: 500;
@@ -228,6 +258,7 @@ li a {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .room-txt .button {
   background-color: #076bb2;
   color: white;
@@ -236,18 +267,22 @@ li a {
   border: none;
   text-align: center;
 }
+
 .events .container {
   margin: 0;
   width: 100vw;
 }
+
 .events .container h1 {
   margin: 0 auto;
 }
+
 .events .container .cards {
   display: flex;
   gap: 2rem;
   align-items: center;
 }
+
 .events .container .cards .card1,
 .events .container .cards .card2,
 .events .container .cards .card3 {
@@ -255,6 +290,7 @@ li a {
   height: 514px;
   overflow: hidden;
 }
+
 .events .container .cards .card1 .image,
 .events .container .cards .card2 .image,
 .events .container .cards .card3 .image {
@@ -263,6 +299,7 @@ li a {
   overflow: hidden;
   position: relative;
 }
+
 .box {
   width: 130px;
   height: 130px;
@@ -275,6 +312,7 @@ li a {
   justify-content: center;
   align-items: center;
 }
+
 .events .container .cards .card1 .image .box h1,
 .events .container .cards .card2 .image .box h1,
 .events .container .cards .card3 .image .box h1 {
@@ -286,6 +324,7 @@ li a {
   text-align: center;
   color: #000000;
 }
+
 .events .container .cards .card1 .image .box h4,
 .events .container .cards .card2 .image .box h4,
 .events .container .cards .card3 .image .box h4 {
@@ -296,6 +335,7 @@ li a {
   letter-spacing: 0em;
   text-align: center;
 }
+
 .image img {
   width: 100%;
   height: 100%;
@@ -315,6 +355,7 @@ li a {
   color: #000000;
   padding-top: 3.44rem;
 }
+
 .text h3 {
   font-family: Inter;
   font-size: 16px;
@@ -324,6 +365,7 @@ li a {
   text-align: center;
   padding-top: 0.62rem;
 }
+
 .events .container .button {
   background-color: #076bb2;
   color: white;
@@ -337,13 +379,16 @@ li a {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .cuisine .container {
   margin: 0;
   width: 100vw;
 }
+
 .cuisine .container h1 {
   margin: 0 auto;
 }
+
 .cuisine-cnt {
   display: flex;
   flex-direction: row;
@@ -358,11 +403,13 @@ li a {
   /* height: 778px; */
   overflow: hidden;
 }
+
 .cuisine-img img {
   width: 110%;
   object-fit: cover;
   object-position: center;
 }
+
 .cuisine-txt {
   display: flex;
   flex-direction: column;
@@ -371,6 +418,7 @@ li a {
   padding: 33px 27px 0px 27px;
   gap: 30px;
 }
+
 .cuisine-txt h2 {
   font-size: 40px;
   font-weight: 300;
@@ -378,6 +426,7 @@ li a {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .cuisine-txt p {
   font-size: 16px;
   font-weight: 500;
@@ -385,6 +434,7 @@ li a {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .cuisine-txt .button {
   color: #076bb2;
   border-bottom: 1px dotted #076bb2;
@@ -392,18 +442,22 @@ li a {
   text-align: left;
   width: fit-content;
 }
+
 .contact {
   padding-bottom: 9.38rem;
 }
+
 .contact .contact-container {
   background-color: #ececec;
   padding: 4.9rem 4.19rem;
   width: 1512px;
 }
+
 .contact-container form {
   display: flex;
   gap: 3.75rem;
 }
+
 .column1,
 .column2 {
   flex-basis: 50%;
@@ -411,10 +465,12 @@ li a {
   flex-direction: column;
   gap: 3.88rem;
 }
+
 .contact-container form span {
   display: flex;
   flex-direction: column;
 }
+
 .contact-container form span input {
   border: none;
   outline: none;
@@ -423,6 +479,7 @@ li a {
   font-size: 20px;
   padding: 4px;
 }
+
 textarea {
   width: 100%;
   height: 159px;
@@ -433,6 +490,7 @@ textarea {
   outline: none;
   background: none;
 }
+
 button {
   background-color: #076bb2;
   padding: 1rem;
@@ -443,15 +501,18 @@ button {
   color: white;
   font-size: 20px;
 }
+
 footer {
   background-color: #033c65;
   padding: 3.81rem 10.7rem;
 }
+
 footer .logo {
   margin: 0 auto;
   width: fit-content;
   padding-bottom: 4.4rem;
 }
+
 footer .logo h1 {
   color: white;
   font-family: Inter;
@@ -461,11 +522,13 @@ footer .logo h1 {
   letter-spacing: 0em;
   text-align: left;
 }
+
 footer .container {
   display: flex;
   justify-content: space-between;
   padding-bottom: 1.94rem;
 }
+
 .col1,
 .col2,
 .col3 {
@@ -474,6 +537,7 @@ footer .container {
   flex-direction: column;
   gap: 2.19rem;
 }
+
 .col1 h2,
 .col2 h2,
 .col3 h2 {
@@ -484,6 +548,7 @@ footer .container {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .col1 div,
 .col2 div,
 .col3 div {
@@ -491,6 +556,7 @@ footer .container {
   flex-direction: column;
   gap: 1rem;
 }
+
 .col1 div h3,
 .col2 div h3,
 .col3 div h3,
@@ -506,11 +572,13 @@ footer .container {
   cursor: pointer;
   color: white;
 }
+
 .icons {
   padding-bottom: 1rem;
   display: flex;
   gap: 1rem;
 }
+
 footer p {
   font-family: 'Quicksand';
   font-size: 12px;
@@ -521,27 +589,47 @@ footer p {
   color: #a3a3a3;
 }
 
+@media only screen and (max-width: 1366px) {
+  .navigation {
+    padding: 2rem 5.6rem;
+  }
+  span,
+  li a {
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 1020px) {
   .navigation {
-    padding: 3rem 5.6rem;
+    padding: 2rem 5.6rem;
   }
+
   .nav {
     gap: 20px;
   }
+
   ul {
     gap: 20px;
   }
+
   .about .container {
     width: 90vw !important
   }
 }
+
 @media only screen and (max-width: 800px) {
+  .navigation {
+    padding: 1rem 5.6rem;
+  }
+
   ul {
     display: none;
   }
+
   .hamburger {
     display: flex;
   }
+
   .landing {
     flex-direction: column;
     bottom: -10%;
@@ -549,6 +637,7 @@ footer p {
     width: fit-content;
     min-width: 300px;
   }
+
   .about .container {
     width: 90vw !important
   }
