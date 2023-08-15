@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  color: black;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.story h1 {
+  /* //styleName: H1; */
+font-family: Lora;
+font-size: 64px;
+font-weight: 700;
+line-height: 93px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0 auto;
+padding-top: 3rem;
+color: #888888;
+}
+.story .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6.5rem;
+  gap: 7rem;
+}
+.row {
+  height: 800px;
+  display: flex;
+}
+.row1 {
+  flex-basis: 60%;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.image {
+  width: 90%;
+  position: relative;
+}
+.image img {
+  width: auto;
+}
+.image .img-txt {
+  position: absolute;
+  width: 80%;
+  height: fit-content;
+  padding: 1rem;
+  top: -38px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  background-color: white;
+}
+.image .img-txt h3 {
+  color: black;
+  font-family: 'Inter';
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.image .img-txt p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.row2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.row2 .last {
+  font-family: 'Inter';
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 4.6rem;
+  width: 241px;
+  height: 116px;
+  color: #888888;
+}
+.row2 div h3 {
+  /* //styleName: H3 Light; */
+  font-family: 'Inter';
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black !important;
+}

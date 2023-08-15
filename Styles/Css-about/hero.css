@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  position: relative;
+  height: 100vh;
+  min-height: 768px;
+  background: url(".../Images/about-images/home.png");
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navigation {
+  width: 100%;
+  /* height: 9.69rem; */
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 6.62rem;
+}
+
+.hamburger {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: none;
+  gap: 5px;
+  flex-direction: column;
+  z-index: 1;
+  justify-content: center;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 70%;
+  height: 4px;
+  background-color: #076bb2;
+}
+
+.logo h1 {
+  cursor: pointer;
+  font-family: 'Inter';
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #076bb2;
+}
+
+ul {
+  display: flex;
+  gap: 35px;
+}
+
+span,
+li a {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.nav {
+  gap: 35px;
+  display: flex;
+}
