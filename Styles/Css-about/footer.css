@@ -54,6 +54,7 @@ footer .container {
   line-height: 31px;
   letter-spacing: 0em;
   text-align: left;
+  color: white !important;
 }
 
 .col1 div,
