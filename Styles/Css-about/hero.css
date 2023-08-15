@@ -107,3 +107,26 @@ li a {
   text-align: left;
   color: #adadad;
 }
+@media only screen and (max-width: 1366px) {
+  .landing {
+    width: 60vw;
+    height: fit-content;
+  }
+  .landing h1 {
+    font-size: xx-large;
+    line-height: 43px;
+  }
+}
+@media only screen and (max-width:820px) {
+  .navigation {
+    padding: 3rem 5.6rem;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
