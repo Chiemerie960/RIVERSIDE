@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   text-decoration: none;
 }
 
@@ -21,7 +21,8 @@ header {
   position: relative;
   height: 100vh;
   min-height: 768px;
-  background: url(".../Images/about-images/home.png");
+  background: url('../../Images/about-images/home.png'),
+    linear-gradient(#00000010, #00000010);
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
@@ -85,4 +86,24 @@ li a {
 .nav {
   gap: 35px;
   display: flex;
+}
+.landing {
+  display: flex;
+  width: 964px;
+  height: 244px;
+  position: absolute;
+  bottom: 2rem;
+  left: 106px;
+  padding: 29px 25px 29px 25px;
+  gap: 20px;
+  background-color: white;
+}
+.landing h1 {
+  font-family: 'Lora';
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 93px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #adadad;
 }
