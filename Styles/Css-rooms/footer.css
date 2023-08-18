@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #033c65;
+  padding: 3.81rem 10.7rem;
+}
+
+footer .logo {
+  margin: 0 auto;
+  width: fit-content;
+  padding-bottom: 4.4rem;
+}
+
+footer .logo h1 {
+  color: white;
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.94rem;
+  /* flex-wrap: nowrap; */
+}
+
+.col1,
+.col2,
+.col3 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2.19rem;
+}
+
+.col1 h2,
+.col2 h2,
+.col3 h2 {
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white !important;
+}
+
+.col1 div,
+.col2 div,
+.col3 div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.col1 div h3,
+.col2 div h3,
+.col3 div h3,
+.col1 div a,
+.col2 div a,
+.col3 div a {
+  font-family: 'Quicksand';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+  color: white;
+}
+
+.icons {
+  padding-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+footer p {
+  font-family: 'Quicksand';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a3a3a3;
+}
+@media only screen and (max-width: 768px) {
+  footer {
+    padding: 2rem 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .container {
+    display: none;
+  }
+}
